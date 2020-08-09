@@ -1,8 +1,8 @@
 {
 	"name": "@scottjarvis/scrollstory",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "A scrolly-telling library, uses requestAnimationFrame, based on google/scrollytell, but simplified a little",
-	"main": "dist/scrollstory.js",
+	"main": "dist/scrollstory.min.js",
 	"main:umd": "dist/scrollstory.min.js",
 	"browser": "dist/scrollstory.min.js",
 	"unpkg": "dist/scrollstory.min.js",
@@ -22,7 +22,8 @@
 		"requestAnimationFrame"
 	],
 	"files": [
-		"dist/scrollstory.min.js"
+		"dist/scrollstory.min.js",
+		"src/scrollstory.js"
 	],
 	"dependencies": {},
 	"devDependencies": {
