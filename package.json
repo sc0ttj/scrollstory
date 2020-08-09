@@ -1,0 +1,47 @@
+{
+	"name": "@scottjarvis/scrollstory",
+	"version": "1.0.0",
+	"description": "A scrolly-telling library, uses requestAnimationFrame, based on google/scrollytell, but simplified a little",
+	"main": "dist/scrollstory.js",
+	"main:umd": "dist/scrollstory.min.js",
+	"browser": "dist/scrollstory.min.js",
+	"unpkg": "dist/scrollstory.min.js",
+	"source": "src/scrollstory.js",
+	"scripts": {
+		"build": "rollup -c rollup.config.js",
+		"test": "echo 'Build complete... nothing to do, yet..'"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/sc0ttj/scrollstory.git"
+	},
+	"keywords": [
+		"scrolly",
+		"scroll",
+		"scrollytelling",
+		"requestAnimationFrame"
+	],
+	"files": [
+		"dist/scrollstory.min.js"
+	],
+	"dependencies": {},
+	"devDependencies": {
+		"@rollup/plugin-commonjs": "^14.0.0",
+		"@rollup/plugin-node-resolve": "^8.4.0",
+		"rollup": "^2.23.0",
+		"rollup-plugin-terser": "^6.1.0"
+	},
+	"directories": {
+		"example": "examples"
+	},
+	"engines": {
+		"node": ">=10.0.0",
+		"npm": ">=6.0.0"
+	},
+	"author": "sc0ttj",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/sc0ttj/scrollstory/issues"
+	},
+	"homepage": "https://github.com/sc0ttj/scrollstory#readme"
+}
