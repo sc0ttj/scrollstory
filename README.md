@@ -4,9 +4,9 @@ A tiny (~770 bytes) JavaScript library for creating animations that synchronize 
 page scrolling. It uses `requestAnimationFrame` to check the scroll status and
 trigger scrollytelling events.
 
-[![npm version](https://badge.fury.io/js/%40scottjarvis%2Fscrollstory.svg)](https://badge.fury.io/js/%40scottjarvis%2Fscrollstory) [![Dependency Status](https://david-dm.org/sc0ttj/scrollstory.svg)](https://david-dm.org/sc0ttj/scrollstory) [![devDependencies Status](https://david-dm.org/sc0ttj/scrollstory/dev-status.svg)](https://david-dm.org/sc0ttj/scrollstory?type=dev) [![Node version](https://badgen.net/npm/node/@scottjarvis/scrollstory)](http://nodejs.org/download/) [![Build Status](https://travis-ci.org/sc0ttj/scrollstory.svg?branch=master)](https://travis-ci.org/sc0ttj/scrollstory) [![bundle size](https://badgen.net/bundlephobia/minzip/@scottjarvis/scrollstory?color=green&label=gzipped)](https://badgen.net/bundlephobia/minzip/@scottjarvis/scrollstory) [![Downloads](https://badgen.net/npm/dt/@scottjarvis/scrollstory)](https://badgen.net/npm/dt/@scottjarvis/scrollstory)
+Check out the online demo: https://sc0ttj.github.io/scrollstory/examples/basic-usage.html
 
-Check out the mobile-friendly [examples](./examples/) that can be used as templates.
+[![npm version](https://badge.fury.io/js/%40scottjarvis%2Fscrollstory.svg)](https://badge.fury.io/js/%40scottjarvis%2Fscrollstory) [![Dependency Status](https://david-dm.org/sc0ttj/scrollstory.svg)](https://david-dm.org/sc0ttj/scrollstory) [![devDependencies Status](https://david-dm.org/sc0ttj/scrollstory/dev-status.svg)](https://david-dm.org/sc0ttj/scrollstory?type=dev) [![Node version](https://badgen.net/npm/node/@scottjarvis/scrollstory)](http://nodejs.org/download/) [![Build Status](https://travis-ci.org/sc0ttj/scrollstory.svg?branch=master)](https://travis-ci.org/sc0ttj/scrollstory) [![bundle size](https://badgen.net/bundlephobia/minzip/@scottjarvis/scrollstory?color=green&label=gzipped)](https://badgen.net/bundlephobia/minzip/@scottjarvis/scrollstory) [![Downloads](https://badgen.net/npm/dt/@scottjarvis/scrollstory)](https://badgen.net/npm/dt/@scottjarvis/scrollstory)
 
 Before going over the [usage and API](#usage-api), let's establish a vocabulary.
 
