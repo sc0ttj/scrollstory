@@ -149,6 +149,9 @@ Based on [google/scrollytell](https://github.com/google/scrollytell/).
 
 ## Changelog
 
+**v1.0.1**
+- fixed packaging settings in `package.json`
+
 **v1.0.0**
 
 Started with [google/scrollytell](https://github.com/google/scrollytell/), then:
